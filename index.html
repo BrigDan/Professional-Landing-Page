@@ -5,19 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> Kayqi.dev | Home </title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js" />
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <section id="fullpage">
       <div class="section">
-        <h1>Home page</h1>
+        <h1 class="typewriter">Kacper. London-Based Developer</h1>
       </div>
       <div class="section">
-        <h1>About page</h1>
+        <h1>About</h1>
       </div>
       <div class="section">
         <h1>Contact Page</h1>
       </div>
+      <script src="JS/main.js" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+      <script type="text/javascript">
+       new fullpage('#fullpage', {
+
+       autoScrolling:true,
+       navigation:true,
+       anchors:['Home','About','Contact'],
+       navigationTooltips:['Home','About','Contact'],
+       });
+ </script>
 </body>
 </html>
